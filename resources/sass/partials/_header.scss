@@ -1,0 +1,21 @@
+header {
+  text-align: center;
+
+  img {
+      width: 200px;
+  }
+
+  ul {
+    justify-content: center;
+
+    a {
+      padding: 15px;
+      color: #000;
+      font-weight: 600;
+
+      &.active {
+        background-color: $back_active;
+      }
+    }
+  }
+}
