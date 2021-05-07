@@ -8,10 +8,11 @@ header {
   ul {
     justify-content: center;
 
-    a {
+    li {
       padding: 15px;
       color: #000;
       font-weight: 600;
+      cursor: pointer;
 
       &.active {
         background-color: $back_active;

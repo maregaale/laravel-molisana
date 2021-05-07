@@ -9,8 +9,8 @@
     {{-- main_nav --}}
     <div class="main_nav">
       <ul class="flex">
-        <li>
-          <a class="active" href="#">Home</a>
+        <li class="active">
+          <a href="#">Home</a>
         </li>
         <li>
           <a href="#">Prodotti</a>
