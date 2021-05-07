@@ -28,8 +28,101 @@
     {{-- /box indirizzo --}}
 
     {{-- box footer_main_nav --}}
-    <nav class="footer_nav">
+    <nav class="footer_nav flex">
+
+      {{-- lista pastificio --}}
+      <div  class="footer_nav_list pasta_factory">
+
+        {{-- titolo --}}
+        <h4>pastificio</h4>
+        {{-- titolo --}}
+
+        <ul>
+          <li>
+            <a href="#">Il Pastificio</a>
+          </li>
+          <li>
+            <a href="#">Grano decorticato a pietra</a>
+          </li>
+          <li>
+            <a href="#">Il Molise c'è</a>
+          </li>
+          <li>
+            <a href="#">Filiera Integrata</a>
+          </li>
+          <li>
+            <a href="#">100 anni di pasta</a>
+          </li>
+          <li>
+            <a href="#">Sartoria della pasta</a>
+          </li>
+          <li>
+            <a href="#">Spaghetto Quadrato</a>
+          </li>
+          <li>
+            <a href="#">Le Persone</a>
+          </li>
+        </ul>
+      </div>
+      {{-- /lista pastificio --}}
+
+      {{-- lista collezione da chef --}}
+      <div class="footer_nav_list collection">
+
+        {{-- titolo --}}
+        <h4>collezione da chef</h4>
+        {{-- titolo --}}
+
+        <ul>
+          <li>
+            <a href="#">Collezione da Chef</a>
+          </li>
+          <li>
+            <a href="#">Grandi Cucine</a>
+          </li>
+          <li>
+            <a href="#">Biologiche</a>
+          </li>
+          <li>
+            <a href="#">Quadrate</a>
+          </li>
+        </ul>
+      </div>
+      {{-- /lista collezione da chef --}}
+
       
+      {{-- lista prodotti --}}
+      <div class="footer_nav_list products">
+
+        {{-- titolo --}}
+        <h4>prodotti</h4>
+        {{-- titolo --}}
+
+        <ul>
+          <li>
+            <a href="#">Le Classiche</a>
+          </li>
+          <li>
+            <a href="#">Le Integrali</a>
+          </li>
+          <li>
+            <a href="#">Le Speciali</a>
+          </li>
+          <li>
+            <a href="#">Le Biologiche</a>
+          </li>
+          <li>
+            <a href="#">Le Gluten-Free</a>
+          </li>
+          <li>
+            <a href="#">Le Semole</a>
+          </li>
+          <li>
+            <a href="#">Le Extra di Lusso</a>
+          </li>
+        </ul>
+      </div>
+      {{-- /lista prodotti --}}
     </nav>
     {{-- /box footer_main_nav --}}
   </div>

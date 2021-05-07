@@ -3,19 +3,45 @@ footer {
   padding: 30px 0 100px 0;
   font-size: 12px;
   color: $text_color;
+  overflow: hidden;
+
+  .container {
+    align-items: flex-start;
+  }
 
   .address {
+    width: calc(100% / 3);
     .logo {
       margin: 0;
     }
 
   }
+
+  .footer_nav {
+    justify-content: space-between;
+    width: calc((100% / 3) * 2);
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-top: 20px;
+
+
+    .footer_nav_list {
+      width: 50%;
+      padding-top: 15px;
+
+      a {
+        line-height: 18px;
+        color: $text_color;
+      }
+    }
+  }
+
   .overlay {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
     height: 100px;
-    width: 100%;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    min-width: calc(100% + 150px);
   }
 }

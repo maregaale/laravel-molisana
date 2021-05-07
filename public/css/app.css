@@ -39,6 +39,13 @@ h3 {
   margin-left: 5px;
 }
 
+h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
 header {
   text-align: center;
 }
@@ -76,17 +83,39 @@ footer {
   padding: 30px 0 100px 0;
   font-size: 12px;
   color: #848d9b;
+  overflow: hidden;
+}
+footer .container {
+  align-items: flex-start;
+}
+footer .address {
+  width: calc(100% / 3);
 }
 footer .address .logo {
   margin: 0;
 }
+footer .footer_nav {
+  justify-content: space-between;
+  width: calc((100% / 3) * 2);
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+footer .footer_nav .footer_nav_list {
+  width: 50%;
+  padding-top: 15px;
+}
+footer .footer_nav .footer_nav_list a {
+  line-height: 18px;
+  color: #848d9b;
+}
 footer .overlay {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
   height: 100px;
-  width: 100%;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  min-width: calc(100% + 150px);
 }
 
 .mrg_up_down_10 {
