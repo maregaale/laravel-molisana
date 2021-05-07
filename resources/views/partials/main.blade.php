@@ -20,7 +20,6 @@
   </section>
   {{-- /sezione paste lunghe --}}
 
-
   {{-- sezione paste corte --}}
   <section>
     <div class="container">
@@ -40,7 +39,6 @@
     </div>
   </section>
   {{-- /sezione paste corte --}}
-
     
   {{-- sezione paste cortissime --}}
   <section>

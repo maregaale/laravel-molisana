@@ -2,12 +2,12 @@
   <div class="container">
     {{-- logo --}}
     <div class="logo_container">
-      <img class="mrg_up_down_40" src="{{ asset('img/marchio-sito-test.png')}}" alt="Logo Marchio">
+      <img class="logo mrg_up_down_40" src="{{ asset('img/marchio-sito-test.png')}}" alt="Logo Marchio">
     </div>
     {{-- /logo --}}
 
     {{-- main_nav --}}
-    <div class="main_nav">
+    <nav class="main_nav">
       <ul class="flex">
         <li class="active">
           <a href="#">Home</a>
@@ -19,7 +19,7 @@
           <a href="#">News</a>
         </li>
       </ul>
-    </div>
+    </nav>
     {{-- /main_nav --}}
 
 

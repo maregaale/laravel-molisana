@@ -6,6 +6,7 @@ main {
 
   .cards_container {
     flex-wrap: wrap;
+    
     .card {
       width: calc((100% / 3) - 10px);
       margin: 5px;
