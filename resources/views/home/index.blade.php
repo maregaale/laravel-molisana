@@ -17,15 +17,15 @@
   </head>
   <body>
     {{-- intestazione --}}
-    @include('home.header')
+    @include('partials.header')
     {{-- /intestazione --}}
 
     {{-- corpo del progetto --}}
-    @include('home.main')
+    @include('partials.main')
     {{-- /corpo del progetto --}}
 
     {{-- footer --}}
-    @include('home.footer')
+    @include('partials.footer')
     {{-- /footer --}}
 
   </body>
