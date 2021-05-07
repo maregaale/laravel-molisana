@@ -21,7 +21,7 @@
     {{-- /intestazione --}}
 
     {{-- corpo del progetto --}}
-    @include('partials.main')
+    @include('home.home_page_main')
     {{-- /corpo del progetto --}}
 
     {{-- footer --}}

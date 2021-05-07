@@ -1,4 +1,4 @@
-<main>  
+<main class="home_page_main">  
   {{-- sezione paste lunghe --}}
   <section class="long_pasta">
 
