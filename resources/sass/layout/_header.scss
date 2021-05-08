@@ -14,27 +14,29 @@ header {
         background-color: $back_active;
       }
     }
-  }
 
-  .ham_menu {
-    display: none;
   }
-
+  
   // media query
-  @include medium {
-    .main_nav {
-
-      ul {
-        display: none;
+  .main_nav {
+    ul {
+      @include medium {
+          display: none;
       }
     }
+  }
 
-    .ham_menu {
+  // hamburger menu
+  .ham_menu {
+    display: none;
+    
+    // media query
+    @include medium {
       display: block;
       margin-bottom: 20px;
       font-size: 25px;
       color: $title_pastas_color;
-
+      
       i {
         cursor: pointer;
       }

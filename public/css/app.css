@@ -27,9 +27,34 @@ ul a {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1140px;
   margin: 0 auto;
   width: 100%;
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 732px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 380px;
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    max-width: 300px;
+  }
 }
 
 h3 {
@@ -461,13 +486,15 @@ header ul li {
 header ul li.active {
   background-color: #b2e5fc;
 }
-header .ham_menu {
-  display: none;
-}
 @media (max-width: 992px) {
   header .main_nav ul {
     display: none;
   }
+}
+header .ham_menu {
+  display: none;
+}
+@media (max-width: 992px) {
   header .ham_menu {
     display: block;
     margin-bottom: 20px;
@@ -488,6 +515,7 @@ footer {
 }
 footer .container {
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 footer .address {
   width: calc(100% / 3);
@@ -518,11 +546,15 @@ footer .overlay {
   transform: translateX(-50%);
   min-width: calc(100% + 150px);
 }
+@media (max-width: 992px) {
+  footer .address, footer .footer_nav, footer .footer_nav .footer_nav_list {
+    width: 100%;
+  }
+}
 
 .home_page_main {
   background-image: url(../../../img/fondo-pag-speciali.jpg);
-  background-position: -50px 83%;
-  background-size: contain;
+  background-position: -110px 220%;
   width: 100%;
   padding: 30px 0;
 }
@@ -532,6 +564,16 @@ footer .overlay {
 .home_page_main .cards_container .card {
   width: calc((100% / 3) - 10px);
   margin: 5px;
+}
+@media (max-width: 992px) {
+  .home_page_main .cards_container .card {
+    width: calc((100% / 2) - 10px);
+  }
+}
+@media (max-width: 576px) {
+  .home_page_main .cards_container .card {
+    width: 100%;
+  }
 }
 .home_page_main .cards_container .card img {
   width: 100%;

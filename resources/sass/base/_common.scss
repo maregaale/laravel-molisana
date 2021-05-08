@@ -31,7 +31,27 @@ ul a {
 
 // contenitori
 .container {
-  max-width: 1200px;
+  max-width: 1140px;
   margin: 0 auto;
   width: 100%;
+
+  @include large {
+    max-width: 960px;
+  }
+
+  @include medium {
+    max-width: 732px;
+  }
+
+  @include small {
+    max-width: 540px;
+  }
+
+  @include extra_small {
+    max-width: 380px;
+  }
+
+  @include extra_extra_small {
+    max-width: 300px;
+  }
 }

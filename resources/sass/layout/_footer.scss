@@ -7,6 +7,7 @@ footer {
 
   .container {
     align-items: flex-start;
+    flex-wrap: wrap;
   }
 
   .address {
@@ -43,5 +44,11 @@ footer {
     bottom: 0;
     transform: translateX(-50%);
     min-width: calc(100% + 150px);
+  }
+
+  @include medium {
+    .address, .footer_nav, .footer_nav .footer_nav_list {
+      width: 100%;
+    }
   }
 }

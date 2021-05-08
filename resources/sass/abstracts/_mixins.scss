@@ -1,3 +1,6 @@
+@mixin extra_extra_small {
+  @media (max-width: 450px) { @content; }
+}
 @mixin extra_small {
   @media (max-width: 576px) { @content; }
 }
@@ -10,3 +13,4 @@
 @mixin large {
   @media (max-width: 1200px) { @content; }
 }
+
