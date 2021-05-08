@@ -461,6 +461,23 @@ header ul li {
 header ul li.active {
   background-color: #b2e5fc;
 }
+header .ham_menu {
+  display: none;
+}
+@media (max-width: 992px) {
+  header .main_nav ul {
+    display: none;
+  }
+  header .ham_menu {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #002d73;
+  }
+  header .ham_menu i {
+    cursor: pointer;
+  }
+}
 
 footer {
   position: relative;

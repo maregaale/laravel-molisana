@@ -22,6 +22,11 @@
     </nav>
     {{-- /main_nav --}}
 
+    {{-- hamburger menu --}}
+    <div class="ham_menu">
+      <i class="fas fa-bars"></i>
+    </div>
+    {{-- hamburger menu --}}
 
   </div>
 </header>
