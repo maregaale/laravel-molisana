@@ -38,7 +38,9 @@
 
         @foreach ($paste_corte as $pasta)
             <div class="card">
-              <img src="{{ asset($pasta['src']) }}" alt="">
+              <a href="">
+                <img src="{{ asset($pasta['src']) }}" alt="">
+              </a>
             </div>
         @endforeach
 

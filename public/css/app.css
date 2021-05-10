@@ -579,3 +579,22 @@ footer .overlay {
 .home_page_main .cards_container .card img {
   width: 100%;
 }
+
+.product_main {
+  background-color: #b7dae5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.product_main .container h1 {
+  text-align: center;
+  font-size: 22px;
+  color: #002d73;
+  font-weight: 600;
+}
+.product_main .container img {
+  width: 100%;
+}
+.product_main .container p {
+  color: #002d73;
+  font-weight: 600;
+}
