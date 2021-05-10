@@ -13,7 +13,7 @@
           <a href="{{ route('home') }}">Home</a>
         </li>
         <li class="{{\Request::route()->getName() == 'prodotto' ? 'active' : null}}">
-          <a href="{{ '/prodotto/0' }}">Prodotti</a>
+          <a href="{{ route('prodotto', ['id' => 0]) }}">Prodotti</a>
         </li>
         <li class="{{\Request::route()->getName() == 'news' ? 'active' : null}}">
           <a href="#">News</a>
