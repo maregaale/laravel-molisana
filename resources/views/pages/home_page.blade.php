@@ -18,7 +18,9 @@
 
         @foreach ($paste_lunghe as $pasta)
             <div class="card">
-              <img src="{{ asset($pasta['src']) }}" alt="">
+              <a href="{{ route('prodotto', ['id' => $pasta['id']]) }}">
+                <img src="{{ asset($pasta['src']) }}" alt="">
+              </a>
             </div>
         @endforeach
 
@@ -37,13 +39,13 @@
       <div class="short_pastas cards_container flex">
 
         @foreach ($paste_corte as $pasta)
-            <div class="card">
-              <a href="">
-                <img src="{{ asset($pasta['src']) }}" alt="">
-              </a>
-            </div>
+          <div class="card">
+            <a href="{{ route('prodotto', ['id' => $pasta['id']]) }}">
+              <img src="{{ asset($pasta['src']) }}" alt="">
+            </a>
+          </div>
         @endforeach
-
+        
       </div>
     </div>
   </section>
@@ -60,7 +62,9 @@
         
         @foreach ($paste_cortissime as $pasta)
           <div class="card">
-            <img src="{{ asset($pasta['src']) }}" alt="">
+            <a href="{{ route('prodotto', ['id' => $pasta['id']]) }}">
+              <img src="{{ asset($pasta['src']) }}" alt="">
+            </a>
           </div>
         @endforeach
 

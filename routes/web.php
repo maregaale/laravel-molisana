@@ -297,7 +297,7 @@ Route::get('/prodotto/{id}', function ($id) {
         $data[$key] = $el;
     }
 
-    return view('/pages/products', [
+    return view('/pages/product', [
         "paste" => $data,
         "id" => $id,
     ]);

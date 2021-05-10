@@ -15,7 +15,7 @@
         <li class="{{\Request::route()->getName() == 'prodotto' ? 'active' : null}}">
           <a href="{{ '/prodotto/0' }}">Prodotti</a>
         </li>
-        <li class="{{\Request::route()->getName() == '' ? 'active' : null}}">
+        <li class="{{\Request::route()->getName() == 'news' ? 'active' : null}}">
           <a href="#">News</a>
         </li>
       </ul>
