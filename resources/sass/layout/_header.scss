@@ -5,16 +5,19 @@ header {
     justify-content: center;
 
     li {
-      padding: 15px;
-      color: #000;
-      font-weight: 600;
-      cursor: pointer;
-
       &.active {
         background-color: $back_active;
       }
-    }
 
+      a {
+        padding: 15px;
+        color: #000;
+        font-weight: 600;
+        cursor: pointer;
+        display: inline-block;
+
+      }
+    }
   }
   
   // media query

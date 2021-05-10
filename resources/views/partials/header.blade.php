@@ -10,7 +10,7 @@
     <nav class="main_nav">
       <ul class="flex">
         <li class="active">
-          <a href="#">Home</a>
+          <a href="{{ route('home') }}">Home</a>
         </li>
         <li>
           <a href="#">Prodotti</a>

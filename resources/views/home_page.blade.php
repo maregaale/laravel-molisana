@@ -1,3 +1,10 @@
+@extends('../layouts/main_layout')
+
+@section('page_title')
+    Home Page La Molisana
+@endsection
+
+@section ('content')
 <main class="home_page_main">  
   {{-- sezione paste lunghe --}}
   <section class="long_pasta">
@@ -60,3 +67,4 @@
   </section>
   {{-- /sezione paste cortissime --}}
 </main>
+@endsection

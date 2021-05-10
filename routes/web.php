@@ -153,10 +153,10 @@ Route::get('/', function () {
         }
     }
 
-    return view('/home/index', [
+    return view('/home_page', [
         "paste" => $data,
         "paste_lunghe" => $pasteLunghe,
         "paste_corte" => $pasteCorte,
         "paste_cortissime" => $pasteCortissime,
     ]);
-});
+}) -> name('home');

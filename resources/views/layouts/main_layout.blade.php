@@ -11,10 +11,10 @@
     {{-- /Google Font --}}
 
     <!-- font awesome -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />        <!-- /font awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />       
 		<!-- /font awesome -->
 
-    <title>Molisana</title>
+    <title>@yield('page_title')</title>
 
     {{-- foglio di stile --}}
     <link rel="stylesheet" href="{{ asset('css/app.css')}}">
@@ -25,7 +25,7 @@
     {{-- /intestazione --}}
 
     {{-- corpo del progetto --}}
-    @include('home.home_page_main')
+    @yield('content')
     {{-- /corpo del progetto --}}
 
     {{-- footer --}}
