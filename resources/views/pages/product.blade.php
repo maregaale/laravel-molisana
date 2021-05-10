@@ -6,6 +6,7 @@
 
 @section ('content')
 <main class="product_main">  
+  {{-- box prodotto --}}
   <div class="container">
     {{-- titolo --}}
     <h1 class="mrg_up_down_20"> {{ $paste[$id]["titolo"] }}</h1>
@@ -17,11 +18,30 @@
     {{-- /immagini --}}
 
     {{-- descrizione --}}
-    <p>
+    <div class="description">
       {!! $paste[$id]["descrizione"] !!}
-    </p>
+    </div>
     {{-- /descrizione --}}
   </div>
+  {{-- /box prodotto --}}
+
+  {{-- frecce carosello --}}
+  {{-- freccia sinistra --}}
+  <div class="left_angle">
+    <a href="">
+      <i class="fas fa-angle-left"></i>
+    </a>
+  </div>
+  {{-- /freccia sinistra --}}
+
+  {{-- freccia destra --}}
+  <div class="right_angle">
+    <a href="">
+      <i class="fas fa-angle-right"></i>
+    </a>
+  </div>
+  {{-- /freccia destra --}}
+  {{-- /frecce carosello --}}
 
 </main>
 @endsection
