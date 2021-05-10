@@ -592,7 +592,13 @@ footer .overlay {
   color: #002d73;
   font-weight: 600;
 }
-.product_main .container img {
+.product_main .container .img_container {
+  text-align: center;
+}
+.product_main .container .img_container .src_h {
+  width: 80%;
+}
+.product_main .container .img_container img {
   width: 100%;
 }
 .product_main .container .description {

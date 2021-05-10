@@ -13,8 +13,10 @@
     {{-- /titolo --}}
 
     {{-- immagini --}}
-    <img src="{{ asset($paste[$id]["src-h"]) }}">
-    <img src="{{ asset($paste[$id]["src-p"]) }}" alt="{{ asset($paste[$id]["titolo"]) }}">
+    <div class="img_container">
+      <img class="src_h" src="{{ asset($paste[$id]["src-h"]) }}">
+      <img src="{{ asset($paste[$id]["src-p"]) }}" alt="{{ asset($paste[$id]["titolo"]) }}">
+    </div>
     {{-- /immagini --}}
 
     {{-- descrizione --}}

@@ -12,9 +12,18 @@
       font-weight: 600;
     }
 
-    img {
-      width: 100%;
+    .img_container {
+      text-align: center;
+      
+      .src_h {
+        width: 80%;
+      }
+
+      img {
+        width: 100%;
+      }
     }
+
 
     .description {
       color: $title_pastas_color;
