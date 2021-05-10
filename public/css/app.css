@@ -592,11 +592,21 @@ footer .overlay {
   color: #002d73;
   font-weight: 600;
 }
+@media (max-width: 768px) {
+  .product_main .container h1 {
+    font-size: 18px;
+  }
+}
 .product_main .container .img_container {
   text-align: center;
 }
 .product_main .container .img_container .src_h {
   width: 80%;
+}
+@media (max-width: 768px) {
+  .product_main .container .img_container .src_h {
+    width: 100%;
+  }
 }
 .product_main .container .img_container img {
   width: 100%;
@@ -605,7 +615,12 @@ footer .overlay {
   color: #002d73;
   font-weight: 600;
 }
-.product_main .container ol {
+@media (max-width: 768px) {
+  .product_main .container .description {
+    font-size: 14px;
+  }
+}
+.product_main .container .description ol {
   line-height: 25px;
   margin: 5px 0 5px 15px;
   color: #002d73;

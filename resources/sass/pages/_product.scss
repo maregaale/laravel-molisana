@@ -10,13 +10,21 @@
       font-size: 22px;
       color: $title_pastas_color;
       font-weight: 600;
+
+      @include small {
+        font-size: 18px;
+      }
     }
 
     .img_container {
       text-align: center;
-      
+
       .src_h {
         width: 80%;
+
+        @include small {
+          width: 100%;
+        }
       }
 
       img {
@@ -24,17 +32,20 @@
       }
     }
 
-
     .description {
       color: $title_pastas_color;
       font-weight: 600;
-    }
 
-    ol {
-      line-height: 25px;
-      margin: 5px 0 5px 15px;
-      color: $title_pastas_color;
-      font-weight: 600;
+      @include small {
+        font-size: 14px;
+      }
+
+      ol {
+        line-height: 25px;
+        margin: 5px 0 5px 15px;
+        color: $title_pastas_color;
+        font-weight: 600;
+      }
     }
   }
 
