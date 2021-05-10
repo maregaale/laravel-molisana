@@ -9,13 +9,13 @@
     {{-- main_nav --}}
     <nav class="main_nav">
       <ul class="flex">
-        <li class="active">
+        <li class="{{\Request::route()->getName() == 'home' ? 'active' : null}}">
           <a href="{{ route('home') }}">Home</a>
         </li>
-        <li>
-          <a href="#">Prodotti</a>
+        <li class="{{\Request::route()->getName() == 'prodotto' ? 'active' : null}}">
+          <a href="{{ '/prodotto/0' }}">Prodotti</a>
         </li>
-        <li>
+        <li class="{{\Request::route()->getName() == '' ? 'active' : null}}">
           <a href="#">News</a>
         </li>
       </ul>

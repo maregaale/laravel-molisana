@@ -302,4 +302,4 @@ Route::get('/prodotto/{id}', function ($id) {
         "id" => $id,
     ]);
 
-}) ->where('id', '[0-9]+') -> name('prodotti');
+})->where('id', '[0-9]+')->name('prodotto');
