@@ -28,7 +28,7 @@
   {{-- frecce carosello --}}
   {{-- freccia sinistra --}}
   <div class="left_angle">
-    <a href="">
+    <a href="{{ route('prodotto', ['id' => $prev_id]) }}">
       <i class="fas fa-angle-left"></i>
     </a>
   </div>
@@ -36,7 +36,7 @@
 
   {{-- freccia destra --}}
   <div class="right_angle">
-    <a href="">
+    <a href="{{ route('prodotto', ['id' => $post_id]) }}">
       <i class="fas fa-angle-right"></i>
     </a>
   </div>

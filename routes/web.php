@@ -300,11 +300,25 @@ Route::get('/prodotto/{id}', function ($id) {
 
             $data[$key] = $el;
         }
+
+        // determino prev e after
+        if ($id == 0) {
+            $prevId = count($data) - 1;
+            $postId = $id + 1;
+        } elseif ($id == (count($data) - 1)) {
+            $postId = 0;
+            $prevId = $id - 1;
+        } elseif ($id != 0) {
+            $prevId = $id - 1;
+            $postId = $id + 1;
+        }
     }
 
     return view('/pages/product', [
         "paste" => $data,
         "id" => $id,
+        "prev_id" => $prevId,
+        "post_id" => $postId,
     ]);
 
 })->where('id', '[0-9]+')->name('prodotto');
